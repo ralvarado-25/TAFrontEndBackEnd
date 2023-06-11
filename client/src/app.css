@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@100&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #083374 20%, #001428 50%);  
+  font-family: 'Livvic', sans-serif;
+}
+
+.container {
+  width: 50vh;
+  border-radius: 5px;
+  border: 0.5px solid #ffffff;
+}
+
+.login {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: 'Livvic', sans-serif;
+}
+
+button {
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(119, 123, 123);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Livvic', sans-serif;
+}
+
+.username {
+  font-weight: bold;
+  color: lightseagreen;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+h2{
+  margin-bottom: 30px;
+  /* background-color: lightseagreen; */
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}

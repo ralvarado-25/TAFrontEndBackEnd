@@ -1,0 +1,39 @@
+{
+    "homepage": "https://ralvarado-25.github.io/TPBackend",
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js",
+        "build": "react-scripts build",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@socket.io/admin-ui": "^0.5.1",
+        "nodemon": "^2.0.14",
+        "react-scripts": "^5.0.1",
+        "socket.io": "^4.6.2"
+    },
+    "devDependencies": {
+        "gh-pages": "^5.0.0"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
